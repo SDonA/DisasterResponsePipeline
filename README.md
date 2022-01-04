@@ -23,7 +23,11 @@
 	This project is a requirement to complete the Udacity Data Science Nanodegree program.
 
 2. Folders and Files <a name="folders_files"></a>
-	1. data 	
+	There are 3 subfolders in the application root directory, viz:
+	1. data
+		The data folder contains the csv dataset (provided by Figure Eight) used to build the ML model.
+
+		It also contains an ETL script - process_data.py. This scrips processes the dataset and stores the processed dataset in an SQLite database (DisasterResponse.db)
 	2. models	
 	3. app	
 
