@@ -41,7 +41,7 @@
 3. Installation and Execution <a name="InstAndExec"></a>
 	1. Dependencies
 		- Python 3.8.5+
-		- Natural Language library: NLTK
+		- Natural Language Toolkit: NLTK
 		- ML Libraries: NumPy, Pandas, Sciki-Learn
 		- SQLlite Database library: SQLalchemy
 		- Model saving and loading: Pickle
@@ -62,9 +62,23 @@
 
 
 4. Authors <a name="Authors"></a>
-
+	- Success Attoni
+	- Team Udacity
 
 5. Licence <a name="Licence"></a>
 
 
 6. References<a name="References"></a>
+	- [Udacity](https://www.udacity.com/): providing boilerplate code and guide to create the webapp
+	- [Udacity](https://www.udacity.com/) course material
+	- [Figure Eight](https://www.figure-eight.com/) dataset
+	- [Medium](https://wwww.medium.com)
+	- Documentations of scikit-learn, nltk, pandas, etc.
+
+ 
+
+
+
+
+
+
