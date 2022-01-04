@@ -40,14 +40,16 @@
 
 3. Installation and Execution <a name="InstAndExec"></a>
 	1. Dependencies
-		* Python 3.5+
-		* Machine Learning Libraries: NumPy, SciPy, Pandas, Sciki-Learn
-		* Natural Language Process Libraries: NLTK
-		* SQLlite Database Libraqries: SQLalchemy
-		* Model Loading and Saving Library: Pickle
-		* Web App and Data Visualization: Flask, Plotly
+		- Python 3.8.5+
+		- Natural Language library: NLTK
+		- ML Libraries: NumPy, Pandas, Sciki-Learn
+		- SQLlite Database library: SQLalchemy
+		- Model saving and loading: Pickle
+		- Web app and data visualization: Flask, Plotly
 
 	2. Clone Repository
+		code base can be cloned from github: git clone https://github.com/SDonA/DisasterResponsePipeline.git
+
 	3. How to execute the application
 		1. Run the following commands in the project's root directory to set up your database and model.
 		    - To run ETL pipeline that cleans data and stores in database
