@@ -16,17 +16,17 @@
 6. [References](#References)
 
 +++++++++++++++++++++++++++
-<a name="summary"></a>
-1. Project Summary
 
-<a name="folders_files"></a>
-2. Folders and Files
+1. Project Summary <a name="summary"></a>
+
+
+2. Folders and Files <a name="folders_files"></a>
 	1. data 	
 	2. models	
 	3. app	
 
-<a name="InstAndExec"></a>
-3. Installation and Execution
+
+3. Installation and Execution <a name="InstAndExec"></a>
 	1. Dependencies
 	2. Clone Repository
 	3. How to execute the application
@@ -39,11 +39,11 @@
 		    `python run.py`
 		3. Go to http://0.0.0.0:3001/
 
-<a name="Authors"></a>
-4. Authors
 
-<a name="Licence"></a>
-5. Licence
+4. Authors <a name="Authors"></a>
 
-<a name="References"></a>
-6. References
+
+5. Licence <a name="Licence"></a>
+
+
+6. References<a name="References"></a>
