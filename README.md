@@ -16,14 +16,17 @@
 6. [References](#References)
 
 +++++++++++++++++++++++++++
-
+<a name="summary"></a>
 1. Project Summary
-2. [Folders and Files](#folders_files)
+
+<a name="folders_files"></a>
+2. Folders and Files
 	1. data 	
 	2. models	
 	3. app	
 
-3. [Installation and Execution](#InstAndExec)
+<a name="InstAndExec"></a>
+3. Installation and Execution
 	1. Dependencies
 	2. Clone Repository
 	3. How to execute the application
@@ -35,13 +38,11 @@
 		2. Run the following command in the app's directory to run your web app.
 		    `python run.py`
 		3. Go to http://0.0.0.0:3001/
-4. [Authors](#Authors)
-5. [Licence](#Licence)
-6. [References](#References)
+<a name="Authors"></a>
+4. Authors
 
+<a name="Licence"></a>
+5. Licence
 
-
-
-### Instructions:
-
-
+<a name="References"></a>
+6. References
