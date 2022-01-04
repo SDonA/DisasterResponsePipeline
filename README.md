@@ -24,7 +24,7 @@
 
 2. Folders and Files <a name="folders_files"></a>
 	There are 3 subfolders in the application root directory, viz:
-	1. <emp>data<emp>:
+	1. <em>data</em>:
 		The data folder contains the csv dataset (provided by Figure Eight) used to build the ML model.
 
 		It also contains an ETL script - process_data.py. This scrips processes the dataset and stores the processed dataset in an SQLite database (DisasterResponse.db)
