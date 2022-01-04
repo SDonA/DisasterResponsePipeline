@@ -65,7 +65,7 @@ def clean_data(df):
 
     # convert category values to just numbers 0 or 1
     for column in categories:
-        # set each value to tbe the last character of the string
+        # set each value to the  last character of the string
         categories[column] = categories[column].astype(str).str[-1]
 
         # convert column from string to numeric
@@ -78,6 +78,14 @@ def clean_data(df):
     # concatenate categories and df dataframes and subsequently drop duplicates
     df = pd.concat([df, categories], axis = 1)
     df = df.drop_duplicates()
+
+    # ETL pipeline preperation analysis shows athat the related field  has 0 ,1 and 2 entried.
+    # further analysis shows that only about 0.7% of the records have 'related' set to 2, while ca 76% are set to 1 and 24% set to 0.
+    # givin the above, I will relassify the 2's as 1's. This is an assumption, to make the related field binary.
+    
+    #reclassify 2's to 1s in related column
+    df['related'] = df['related'].apply(lambda x: 1 if x == 2 else x)
+
 
     return df
 

@@ -72,7 +72,7 @@
 	- [Udacity](https://www.udacity.com/): providing boilerplate code and guide to create the webapp
 	- [Udacity](https://www.udacity.com/) course material
 	- [Figure Eight](https://www.figure-eight.com/) dataset
-	- [Medium](https://wwww.medium.com)
+	- [Medium posts](https://wwww.medium.com)
 	- Documentations of scikit-learn, nltk, pandas, etc.
 
  
