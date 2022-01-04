@@ -1,10 +1,24 @@
 # Disaster Response Pipeline Project
-# In fulfilment of the Udacity Data Science Nanodegree Program
-# Work in progress
+## In fulfilment of the Udacity Data Science Nanodegree Program
+
+## Table of Contents
+1. [Project Summary](#summary)
+2. [Folders and Files]
+	1. [data] 	
+	2. [models] 	
+	3. [app] 	
+3. Installation and Execution
+	1. Dependencies
+	2. Clone Repository
+	3. How to execute the application
+4. Authors
+5. Licence
+6. References
 
 
 
 ### Instructions:
+
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
