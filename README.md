@@ -11,6 +11,23 @@
 	1. Dependencies
 	2. Clone Repository
 	3. How to execute the application
+
+4. [Authors](#Authors)
+5. [Licence](#Licence)
+6. [References](#References)
+
++++++++++++++++++++++++++++
+
+1.	Project Summary
+2. [Folders and Files](#folders_files)
+	1. data 	
+	2. models	
+	3. app	
+
+3. [Installation and Execution](#InstAndExec)
+	1. Dependencies
+	2. Clone Repository
+	3. How to execute the application
 		1. Run the following commands in the project's root directory to set up your database and model.
 		    - To run ETL pipeline that cleans data and stores in database
 		     `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
@@ -21,11 +38,10 @@
 		    `python run.py`
 
 		3. Go to http://0.0.0.0:3001/
-
-
 4. [Authors](#Authors)
 5. [Licence](#Licence)
 6. [References](#References)
+
 
 
 
