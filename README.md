@@ -19,7 +19,7 @@
 
 1. Project Summary <a name="summary"></a>
 	This project is a requirement to complete the Udacity Data Science Nanodegree program.
-	The project uses a disaster dataset provided by Figure Eight to build an ML based API that classifies disaster messages into categories such that the messages can be given the right attention by the appropriate agencies.
+	The project uses a disaster dataset provided by Figure Eight to build an ML based API that classifies disaster messages into categories such that the messages can be given the right attention by the appropriate agencies. The ML classifier sits at the heart of a web application built with Flask. The application provided an interface for users to enter a message and get a most likely classification of the message.
 
 
 2. Folders and Files <a name="folders_files"></a>
