@@ -34,12 +34,19 @@
 		Train classifier.py is the script that reads in the dataset from the SQLite database, develops an ML model and stores the model to disk as classifier.pkl (for example)
 		classifier.pkl is the trained ML model stored as a pickle file.
 
-	3. app	
+	3. <em>app</em>"	
 		the app folder contains files pertinent to run the flask web App. it contains run.py which contains the script (routes, ML model import, charts, etc) necessary to run the app. 
 		The folder contains a subfolder - templates; this contains the 2 html files with codes for the 2 pages of the application
 
 3. Installation and Execution <a name="InstAndExec"></a>
 	1. Dependencies
+		* Python 3.5+
+		* Machine Learning Libraries: NumPy, SciPy, Pandas, Sciki-Learn
+		* Natural Language Process Libraries: NLTK
+		* SQLlite Database Libraqries: SQLalchemy
+		* Model Loading and Saving Library: Pickle
+		* Web App and Data Visualization: Flask, Plotly
+
 	2. Clone Repository
 	3. How to execute the application
 		1. Run the following commands in the project's root directory to set up your database and model.
