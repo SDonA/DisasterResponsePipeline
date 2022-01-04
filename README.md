@@ -27,10 +27,16 @@
 	1. <em>data</em>:
 		The data folder contains the csv dataset (provided by Figure Eight) used to build the ML model.
 
-		It also contains an ETL script - process_data.py. This scrips processes the dataset and stores the processed dataset in an SQLite database (DisasterResponse.db)
-	2. models	
-	3. app	
+		It also contains an ETL script - process_data.py. This scrips processes the dataset and stores the processed dataset in an SQLite database (DisasterResponse.db).	
+		There is also an ETL Pipiline Preparation.ipynb notebook file that served as a guide (for code development and testing) to build the process_data.py script. it provided a "scratch board" for testing ideas before implementation in proces_data.py
+	2. <em>models</em>:
+		The models folder contains a ML Pipeline Preparation.ipynb notebook file that served as a guide (for code development and testing) to build the train_classifier.py script. it provided a "scratch board" for testing ideas before implementation in train_classifier.py	
+		Train classifier.py is the script that reads in the dataset from the SQLite database, develops an ML model and stores the model to disk as classifier.pkl (for example)
+		classifier.pkl is the trained ML model stored as a pickle file.
 
+	3. app	
+		the app folder contains files pertinent to run the flask web App. it contains run.py which contains the script (routes, ML model import, charts, etc) necessary to run the app. 
+		The folder contains a subfolder - templates; this contains the 2 html files with codes for the 2 pages of the application
 
 3. Installation and Execution <a name="InstAndExec"></a>
 	1. Dependencies
